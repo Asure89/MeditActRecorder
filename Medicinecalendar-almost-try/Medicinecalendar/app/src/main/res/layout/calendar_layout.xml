@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/DateTimeView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="DateTimeView"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/xValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/DateTimeView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="xValue"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/yValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/xValue"
+        android:layout_centerHorizontal="true"
+        android:text="yValue"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/zValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yValue"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="zValue"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/xGyroValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="xGyroValue"
+        android:layout_below="@id/zValue"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/yGyroValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/xGyroValue"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="yGyroValue"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/zGyroValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yGyroValue"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="zGyroValue"
+        android:textSize="20sp" />
+</RelativeLayout>
